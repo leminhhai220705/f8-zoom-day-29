@@ -253,7 +253,7 @@ function Product() {
           if (product.id === paramId) {
             const html = DOMPurify.sanitize(`
          <div class="back">
-          <a href="/f8-zoom-day-29/">
+          <a href="../index.html">
             <i class="fa-solid fa-chevron-left"></i>
             Back
           </a>
