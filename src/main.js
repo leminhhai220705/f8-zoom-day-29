@@ -253,7 +253,7 @@ function Product() {
           if (product.id === paramId) {
             const html = DOMPurify.sanitize(`
          <div class="back">
-          <a href="../../index.html">
+          <a href="/index.html">
             <i class="fa-solid fa-chevron-left"></i>
             Back
           </a>
