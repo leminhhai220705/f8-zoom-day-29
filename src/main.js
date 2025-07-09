@@ -301,7 +301,7 @@ function Product() {
                 </p>
               </section>
               <section class="in-stock">
-                <h2 class="in-stock__heading">In stock</h2>
+                <h2 class="in-stock__heading">Available Status</h2>
                 <p class="in-stock__info">${product.availabilityStatus}</p>
               </section>
               <section class="tags">
