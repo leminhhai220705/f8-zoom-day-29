@@ -1,0 +1,13 @@
+@mixin setJustifyThumbnail($max: 10) {
+  @for $i from 1 through $max {
+    &-#{$i} {
+      @if $i <= 2 {
+        gap: 5rem;
+        justify-content: center;
+      } @else {
+        justify-content: space-between;
+      }
+      @content;
+    }
+  }
+}
